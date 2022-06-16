@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../images/black-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.kk ul li a {
+    color: #fff;
+
+    text-transform: uppercase;
+    font-family: Poppins, sans-serif;
+    position: relative;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.kk ul li a:hover {
+    color: #fff;
+}
+
+.kk ul li a::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #8b1f00;
+    opacity: 1;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.kk ul li a:hover::before {
+    width: 100%;
+
+}
+
+.get {
+    padding-top: 117px;
+}
+
+.get h1 {
+    font-size: 89px;
+    color: #fff;
+    font-family: Archivo, sans-serif;
+}
+
+.get p {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Nunito, sans-serif;
+}
+
+.btn-custom {
+    background: #f64b3c;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: 0.5s all ease-in-out;
+    border: none;
+    padding: 10px 50px;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+}
+
+.btn-custom:focus {
+    box-shadow: none;
+}
+
+.btn-custom:hover {
+    background: #fff;
+    color: #f64b3c;
+    border: none;
+}
+.btn-custom2 {
+    background: #f64b3c;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: 0.5s all ease-in-out;
+    border: none;
+    padding: 10px 50px;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+}
+
+.btn-custom2:focus {
+    box-shadow: none;
+}
+
+.btn-custom2:hover {
+    background: rgb(39, 38, 38);
+    color: #f64b3c;
+    border: none;
+}
+
+.banner-2 {
+    background-image: url(../images/2ndbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.banner-2 h1 {
+    color: rgb(246, 75, 60);
+    font-size: 56px;
+    font-family: Archivo, sans-serif;
+}
+
+.banner-2 p {
+    margin-top: 15px;
+    color: rgb(246, 75, 60);
+    font-size: 28px;
+    font-family: Montserrat, sans-serif;
+}
+
+.banner-2-item {
+
+    padding-top: 100px;
+}
+
+.banner-2-item h2 {
+    color: rgb(246, 75, 60);
+    padding: 18px 0px 10px;
+    font-size: 50px;
+    font-family: Archivo, sans-serif;
+}
+
+.banner-2-item p {
+    color: rgb(246, 75, 60);
+    font-size: 26px;
+    margin-top: 0px;
+    font-family: Nunito, sans-serif;
+}
+
+.banner-3 {
+    background-color: rgb(246, 75, 60);
+    padding-bottom: 40px;
+
+}
+
+.banner-3-item {
+    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-3 img {
+    width: 100%;
+}
+
+.banner-3-item-right h1 {
+    font-size: 86px;
+    color: rgb(255, 255, 255);
+    font-family: Archivo, sans-serif;
+}
+
+.banner-3-item-right p {
+    margin-top: 30px;
+    margin-bottom: 73px;
+    font-size: 31px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+}
+
+.btn-custom-1 {
+    padding: 0;
+    text-transform: uppercase;
+    color: rgb(246, 75, 60);
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: 0.5s all ease-in-out;
+    border: none;
+    padding: 10px 50px;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+}
+
+.btn-custom-1:focus {
+    box-shadow: none;
+}
+
+.btn-custom-1:hover {
+    background: rgb(46, 16, 12);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.banner-4 {
+    background-image: url(../images/3rd-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-4-item-right h1 {
+    font-size: 86px;
+    color: rgb(246 75 60);
+    text-align: start;
+    font-family: Archivo, sans-serif;
+}
+
+.banner-4-item-right p {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: rgb(246 75 60);
+    text-align: start;
+    font-family: Nunito, sans-serif;
+}
+
+.banner-4 img {
+    padding: 40px 0;
+    width: 100%;
+}
+
+.banner-5 {
+    background-color: rgb(246, 75, 60);
+}
+
+.banner-5 h1 {
+    font-family: Archivo, sans-serif;
+    padding-top: 93px;
+    color: #fff;
+    font-size: 93px;
+}
+
+.banner-5 p {
+    font-family: Montserrat, sans-serif;
+    padding-top: 32px;
+    color: #fff;
+    font-size: 31px;
+}
+
+.banner-5-content {
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+
+.banner-5-item {
+    width: 400px;
+    height: 400px;
+    border: 5px solid #fff;
+    border-radius: 59%;
+    text-align: center;
+}
+
+.banner-5-item h1 {
+    font-size: 111px;
+    padding-top: 105px;
+}
+
+.banner-5-item p {
+    font-size: 34px;
+    padding-top: 4px;
+    text-transform: uppercase;
+}
+
+.banner-6 {
+    background-image: url(../images/2ndbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.banner-6 h1 {
+    font-size: 80px;
+    color: #f64b3c;
+    font-family: Archivo, sans-serif;
+}
+
+.banner-6-content {
+    justify-content: space-between;
+    padding-top: 105px;
+}
+
+.banner-6-content-single {
+    background: #fff;
+}
+
+.banner-6-content h2 {
+    color: #f64b3c;
+    font-size: 40px;
+    font-family: Archivo, sans-serif;
+}
+
+.banner-6-content h3 {
+    color: #f64b3c;
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: Archivo, sans-serif;
+}
+
+.banner-6-content p {
+    color: #f64b3c;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+
+.banner-7 {
+    background-image: url(../images/4th-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.banner-7-item {
+    min-height: 100vh;
+}
+
+.banner-7 h2 {
+    font-family: Archivo, sans-serif;
+    color: #fff;
+    font-size: 49px;
+}
+
+.banner-7 h3 {
+    font-family: 'Calistoga', cursive;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 56px;
+}
+.banner_8{
+    background-image: url(../images/2ndbanner.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.banner-8-item{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.banner_8 h1{
+    color: #f64b3c;
+    font-size: 90px;
+    padding-bottom: 20px;
+    
+    font-family: Archivo, sans-serif;
+}
+.banner_8 p{
+    color: #f64b3c;
+    font-size: 35px;
+    padding-bottom: 30px;
+    font-family: Nunito, sans-serif;
+}
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+form input {
+    width: 65%;
+    padding: 15px 20px 15px 35px;
+    border-radius: 50px 0 0 50px;
+    background: #fff;
+    border: none;
+    font-size: 18px;
+    color: #835e3f;
+}
+
+form input::placeholder {
+    color: #835e3f;
+    font-size: 18px;
+    font-family: Nunito, sans-serif;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.submit {
+    width: 40%;
+    background: #f64b3c !important;
+    border-radius: 0 50px 50px 0;
+    padding: 15px 17px !important;
+    font-size: 24px;
+    cursor: pointer !important;
+    transition: .5s all ease-in-out;
+    color: #fff !important;
+    font-family: Nunito, sans-serif;
+}
+
+.submit:hover {
+    background: #f10808;
+    color: #272624;
+}
+footer{
+    background: #222222;
+    min-height: 400px;
+}
+.ww{
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 200px;
+    text-align: left;
+}
+.ee h4{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: Archivo, sans-serif;
+}
+.ee p{
+    font-size: 22px;
+    padding-bottom: 20px;
+    font-family: Nunito, sans-serif;
+}
+.ee ul{
+    list-style: none;
+    display: flex;
+    padding: 0 !important;
+}
+.ee li{
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50px;
+}
+.ee li a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 34px;
+}
+.ee li:hover{
+    background: #f64b3c;
+    
+}
+.ee li a:hover{
+    color: #fff;
+}
+.jj h4{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: Archivo, sans-serif;
+}
+.jj ul{
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+}
+.jj ul li{
+    padding-bottom: 10px;
+    font-family: Nunito, sans-serif;
+}
